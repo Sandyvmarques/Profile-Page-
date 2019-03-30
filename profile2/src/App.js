@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./Componentes/main";
+import Main from "./Paginas/main";
 import { Link } from "react-router-dom";
 
 class App extends Component {
@@ -15,14 +15,18 @@ class App extends Component {
             scroll
           >
             <Navigation>
+              <Link to="/HomePage">Home</Link>
               <Link to="/PP">Perfil</Link>
-              <Link to="/Projectos">Projectos</Link>
+              <Link to="/Projectos">Projetos</Link>
+              <Link to="/FichaTecnicos">Fichas Tecnicas</Link>
             </Navigation>
           </Header>
           <Drawer title="Conservação e Restauro ">
             <Navigation>
+              <Link to="/HomePage">Home</Link>
               <Link to="/PP">Perfil</Link>
-              <Link to="/Projectos">Projectos</Link>
+              <Link to="/Projectos">Projetos</Link>
+              <Link to="/FichaTecnicos">Fichas Tecnicas</Link>
             </Navigation>
           </Drawer>
           <Content>

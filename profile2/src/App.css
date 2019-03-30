@@ -1,15 +1,5 @@
 .header-color {
-  background: #f2994a; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #f2c94c,
-    #f2994a
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f2c94c,
-    #f2994a
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #4b2402; /* fallback for old browsers */
 }
 
 .PP-grid {
@@ -34,7 +24,7 @@
 }
 
 .text {
-  background-color: black;
+  background-color: #4b2402;
   opacity: 0.8;
   width: 75%;
   margin: auto;
@@ -45,12 +35,6 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
-}
-
-.text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
 }
 
 .text p {
