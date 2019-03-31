@@ -2,6 +2,34 @@
   background: #4b2402; /* fallback for old browsers */
 }
 
+.Home-grid {
+  background: #f2994a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2c94c,
+    #f2994a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f2c94c, #f2994a);
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.Home-grid h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4b2402;
+  text-align: center;
+}
+
+.Home-grid p {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4b2402;
+  text-align: center;
+}
+
 .PP-grid {
   background: #f2994a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
