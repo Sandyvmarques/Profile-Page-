@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import ReactTable from "react-table";
+import "react-table/react-table.css";
 
 class PP extends Component {
   render() {
@@ -22,7 +24,7 @@ class PP extends Component {
                 e Talha I
               </p>
 
-              <table align="center">
+              <ReactTable>
                 <tbody>
                   <tr className="Campos">
                     <th>Campo</th>
@@ -65,7 +67,7 @@ class PP extends Component {
                     <td>Editar</td>
                   </tr>
                 </tbody>
-              </table>
+              </ReactTable>
             </div>
           </Cell>
         </Grid>
